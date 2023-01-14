@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "$public": ["./public"],
+        "$pages": ["./pages"],
+        "$components": ["./components"],
+        "$common": ["./common"],
+      }
+    },
+  }

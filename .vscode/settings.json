@@ -1,0 +1,15 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#153234",
+        "titleBar.activeBackground": "#1D4648",
+        "titleBar.activeForeground": "#F7FBFC"
+    },
+    "editor.fontSize": 19,
+    "files.autoSave": "afterDelay",
+    "scm.inputFontSize": 13,
+    "debug.console.fontSize": 14,
+    "tailwindCSS.rootFontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "markdown.preview.fontSize": 17,
+    "editor.fontFamily": "Consolas,'Courier New',monospace "
+}
