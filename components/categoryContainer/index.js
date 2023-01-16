@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { FreeMode, Autoplay, Navigation, Pagination } from "swiper";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
-import styles from 'components/category/category.module.css';
+import styles from './category.module.css';
 import NavbarMenuMobile from "common/navbarMenuMobile";
 
 

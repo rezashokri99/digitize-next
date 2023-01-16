@@ -1,3 +1,4 @@
+import { TickSquare } from 'react-iconly';
 import { TiTick } from 'react-icons/ti';
 
 

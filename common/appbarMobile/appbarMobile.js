@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ChevronRight } from "react-iconly";
 import { IoCaretBack } from "react-icons/io5";
 
 const AppbarMobile = ({showLogo=true}) => {
@@ -8,7 +9,8 @@ const AppbarMobile = ({showLogo=true}) => {
                 showLogo ?
                 <div>logo</div> :
                 <div className="w-8 h-8 bg-white shadow rounded-md flex items-center justify-center">
-                    <IoCaretBack className="rotate-180 text-xl" />
+                    {/* <IoCaretBack className="rotate-180 text-xl" /> */}
+                    <ChevronRight set="bold" primaryColor="black"/>
                 </div>
             }
             <div className="text-slate-orginal font-bold text-base">ساعت هوشمند</div>
