@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { IoCaretBack } from "react-icons/io5";
 
-const AppbarMobile = ({showLogo}) => {
+const AppbarMobile = ({showLogo=true}) => {
     return (
         <div className="flex md:hidden items-center justify-between mt-11 mb-5 px-5">
             {
