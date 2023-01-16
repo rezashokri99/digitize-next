@@ -7,7 +7,7 @@ import SwiperCore, { FreeMode, Autoplay, Navigation, Pagination } from "swiper";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import styles from 'components/category/category.module.css';
-import NavbarMenuMobile from "components/navbarMenuMobile";
+import NavbarMenuMobile from "common/navbarMenuMobile";
 
 
 SwiperCore.use([Navigation, Pagination])
@@ -65,17 +65,19 @@ const Category = () => {
                                 width: 450,
                                 slidesPerView: 3,
                             },
+                            800: {
+                                slidesPerView: 5,
+                            },
+                            1024: {
+                                slidesPerView: 6.5,
+                            },
+                            1280: {
+                                slidesPerView: 8,
+                            },
                         }}
                         centeredSlides={false}
                         spaceBetween={30}
                         grabCursor={true}
-                        freeMode={true}
-                        style={{ alignItems: "end" }}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[FreeMode, Pagination]}
-                        className={`flex items-end `}
                     >
                         <p className="absolute top-0 left-3 cursor-pointer z-10 text-orange-500 dark:text-orange-600 text-sm">مشاهده همه</p>
                         <SwiperSlide>
@@ -205,17 +207,19 @@ const Category = () => {
                                 width: 450,
                                 slidesPerView: 3,
                             },
+                            800: {
+                                slidesPerView: 5,
+                            },
+                            1024: {
+                                slidesPerView: 6.5,
+                            },
+                            1280: {
+                                slidesPerView: 8,
+                            },
                         }}
                         centeredSlides={false}
                         spaceBetween={30}
                         grabCursor={true}
-                        freeMode={true}
-                        style={{ alignItems: "end" }}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[FreeMode, Pagination]}
-                        className={`flex items-end `}
                     >
                         <p className="absolute top-0 left-3 cursor-pointer z-10 text-orange-500 dark:text-orange-600 text-sm">مشاهده همه</p>
                         <SwiperSlide>
@@ -324,17 +328,19 @@ const Category = () => {
                                 width: 450,
                                 slidesPerView: 3,
                             },
+                            800: {
+                                slidesPerView: 5,
+                            },
+                            1024: {
+                                slidesPerView: 6.5,
+                            },
+                            1280: {
+                                slidesPerView: 8,
+                            },
                         }}
                         centeredSlides={false}
                         spaceBetween={30}
                         grabCursor={true}
-                        freeMode={true}
-                        style={{ alignItems: "end" }}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[FreeMode, Pagination]}
-                        className={`flex items-end `}
                     >
                         <p className="absolute top-0 left-3 cursor-pointer z-10 text-orange-500 dark:text-orange-600 text-sm">مشاهده همه</p>
                         <SwiperSlide>
@@ -425,17 +431,19 @@ const Category = () => {
                                 width: 450,
                                 slidesPerView: 3,
                             },
+                            800: {
+                                slidesPerView: 5,
+                            },
+                            1024: {
+                                slidesPerView: 6.5,
+                            },
+                            1280: {
+                                slidesPerView: 8,
+                            },
                         }}
                         centeredSlides={false}
                         spaceBetween={30}
                         grabCursor={true}
-                        freeMode={true}
-                        style={{ alignItems: "end" }}
-                        pagination={{
-                            clickable: true,
-                        }}
-                        modules={[FreeMode, Pagination]}
-                        className={`flex items-end `}
                     >
                         <p className="absolute top-0 left-3 cursor-pointer z-10 text-orange-500 dark:text-orange-600 text-sm">مشاهده همه</p>
                         <SwiperSlide>

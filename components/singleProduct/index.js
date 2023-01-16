@@ -4,7 +4,7 @@ import { AiOutlineShop } from "react-icons/ai";
 import { FiShield } from "react-icons/fi";
 import { TbTruck } from "react-icons/tb";
 import { useState } from "react";
-import SidebarDesktop from "components/sidebarDesktop";
+import SidebarDesktop from "common/sidebarDesktop";
 import BreadCrumb from "common/breadCrumb";
 import SingleProductImage from "./SingleProductImage";
 
@@ -14,18 +14,20 @@ const SingleProduct = () => {
 
     return (
         <>
-            {/* app bar */}
+            {/* app bar in mobile */}
             <AppbarMobile showLogo={false} />
 
             <div className="container mx-auto xl:max-w-7xl px-5">
+                
                 <div className="w-full md:grid grid-cols-12 grid-rows-[54px_minmax(600px,_1fr)] gap-x-5 gap-y-4">
-
+                    {/* sort & filter & category in desktop */}
                     <div className=" hidden md:block md:col-span-3 xl:col-span-2 row-span-2 sticky top-0">
                         <SidebarDesktop showFilter={false} />
                     </div>
 
                     {/* Breadcrumb */}
                     <BreadCrumb />
+
                     <div className="col-span-12 md:col-span-9 xl:col-span-10">
                         {/* product */}
                         <div className="grid grid-cols-12 lg:bg-white lg:p-8 lg:rounded">
